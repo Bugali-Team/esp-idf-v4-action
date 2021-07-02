@@ -15,7 +15,7 @@ mkdir ~/esp
 cd ~/esp
 git clone --recursive $URL_ESP_IDF
 cd ~/esp/esp-idf
-./install.sh 2>&1
+-./install.sh > ~/esp-idf-install.log 2>&1
 
 # install esp adf
 cd ~/esp
